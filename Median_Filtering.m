@@ -1,5 +1,5 @@
 clc;    clear all;  close all;
-image = imread('cameraman.tif');
+image = imread('circuit.tif');
 %image = rgb2gray(image);
 imshow(image);
 fprintf('Original Image.\nProgram Paused! Press Enter to Continue...\n');
@@ -20,5 +20,5 @@ avgImage = uint8(avgImage);
 imshow(avgImage);
 fprintf('Median Filtered Image.\nProgram Paused! Press Enter to Continue...\n');
 pause;
-imwrite(avgImage, 'D:\Pattern Recognition\My Material\Matlab Codes\Median_Filtered_Image.jpg');
+%imwrite(avgImage, 'D:\Pattern Recognition\My Material\Matlab Codes\Median_Filtered_Image.jpg');
 fprintf('Image saved as Median_Filtered_Image.jpg\n');
